@@ -43,9 +43,7 @@ aside {
     padding: 20px;
     font-family: "Open San Condensed", sans-serif;
 }
-aside li{
-    display: inline-block;
-}
+
 footer {
     background-color: #000;
     color: #F2FFFC;
@@ -75,4 +73,11 @@ em {
 
 h2 {
     font-size: 30px
+}
+
+.icones-sociais li{
+    display: inline-block;    
+}
+.social-rodape{
+    margin: 60px;
 }
