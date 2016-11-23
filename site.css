@@ -35,6 +35,7 @@ blockquote {
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
+    float: right;
 }
 
 aside {
@@ -73,7 +74,8 @@ em {
 }
 
 h2 {
-    font-size: 30px
+    font-size: 40px;
+    clear:both;
 }
 
 .icones-sociais li{
@@ -98,4 +100,25 @@ h2 {
 }
 .twitter{
     background-image: url(twitter.png);
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+aside, img{
+    float: right;
+    width: 15%;
+}
+aside{
+    clear: right;
+    box-sizing: border-box;
+}
+main{
+    float: left; 
+    width: 85%;
+}
+footer{
+    clear: both;
 }
